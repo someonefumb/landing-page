@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+img {
+    width: 100px;
+}
+
+button {
+    padding: 5px 20px;
+    max-width: max-content;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+.intro .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro .content .header {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.intro .content .text {
+    font-size: 18px;
+}
+
+.information {
+    text-align: center;
+}
+
+.information .container {
+    display: flex;
+}
+
+.information .container .info {
+    max-width: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote .text {
+    font-size: 36px;
+}
+
+.quote .quoter {
+    align-self: flex-end;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    font-size: 10px;
+}
